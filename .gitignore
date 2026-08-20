@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# OS & Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local databases
+*.sqlite3
+*.db
+
+# Temporary cloned repos (from repo_cloner)
+gh_eval_*
+/tmp/
